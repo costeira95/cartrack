@@ -1,0 +1,95 @@
+.user-root {
+    display: flex;
+    flex: 1;
+}
+.user-container {
+    flex: 1;
+    border: 2px solid black;
+    margin-top: 2%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #F8DDA4;
+}
+.user-container > header > p {
+    font-size: 4vw;
+    border-bottom: 1px solid black;
+    margin: 0;
+}
+
+.user-container > footer {
+    height: 50px;
+}
+
+.user-container > footer {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.user-image {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: left;
+}
+
+.user-image > img {
+    width: 7vw;
+    height: 7vw;
+}
+
+.user-body {
+    display: flex;
+}
+
+.user-info {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.user-info > p {
+    line-height: 1px;
+    font-size: 2.3vw;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+footer > button {
+    background-color: #D45113;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 15vw;
+    min-width: 40px;
+    height: 3vw;
+    min-height: 30px;
+}
+
+.call {
+    margin: 0;
+    font-size: 2.2vw;
+}
+
+.phone {
+    display: none;
+    font-size: 1.4vw;
+    justify-content: center;
+}
+
+button:hover > .call {
+    display: none;
+}
+
+button:hover > .phone {
+    display: flex;
+}
+
+hr {
+    width: 100%;
+    line-height: 2px;
+    border-color: black;
+}
